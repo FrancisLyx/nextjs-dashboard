@@ -6,6 +6,7 @@ settings:
 
 importers:
 
+<<<<<<< Updated upstream
   .:
     dependencies:
       '@heroicons/react':
@@ -69,6 +70,71 @@ importers:
       '@types/react-dom':
         specifier: 19.0.3
         version: 19.0.3(@types/react@19.0.7)
+=======
+dependencies:
+  '@heroicons/react':
+    specifier: ^2.2.0
+    version: 2.2.0(react@19.2.0)
+  '@neondatabase/serverless':
+    specifier: ^1.0.2
+    version: 1.0.2
+  '@tailwindcss/forms':
+    specifier: ^0.5.10
+    version: 0.5.10(tailwindcss@3.4.17)
+  autoprefixer:
+    specifier: 10.4.20
+    version: 10.4.20(postcss@8.5.1)
+  bcrypt:
+    specifier: ^5.1.1
+    version: 5.1.1
+  clsx:
+    specifier: ^2.1.1
+    version: 2.1.1
+  next:
+    specifier: 16.0.0-canary.8
+    version: 16.0.0-canary.8(react-dom@19.2.0)(react@19.2.0)
+  next-auth:
+    specifier: 5.0.0-beta.25
+    version: 5.0.0-beta.25(next@16.0.0-canary.8)(react@19.2.0)
+  postcss:
+    specifier: 8.5.1
+    version: 8.5.1
+  postgres:
+    specifier: ^3.4.6
+    version: 3.4.6
+  react:
+    specifier: latest
+    version: 19.2.0
+  react-dom:
+    specifier: latest
+    version: 19.2.0(react@19.2.0)
+  tailwindcss:
+    specifier: 3.4.17
+    version: 3.4.17
+  typescript:
+    specifier: 5.7.3
+    version: 5.7.3
+  use-debounce:
+    specifier: ^10.0.4
+    version: 10.0.4(react@19.2.0)
+  zod:
+    specifier: ^3.25.17
+    version: 3.25.17
+
+devDependencies:
+  '@types/bcrypt':
+    specifier: ^5.0.2
+    version: 5.0.2
+  '@types/node':
+    specifier: 22.10.7
+    version: 22.10.7
+  '@types/react':
+    specifier: 19.0.7
+    version: 19.0.7
+  '@types/react-dom':
+    specifier: 19.0.3
+    version: 19.0.3(@types/react@19.0.7)
+>>>>>>> Stashed changes
 
 packages:
 
@@ -257,57 +323,101 @@ packages:
     resolution: {integrity: sha512-I5sbpSIAHiB+b6UttofhrN/UJXII+4tZPAq1qugzwCwLIL8EZLV7F/JyHUrEIiGgQpEXzpnjlJ+zwcEhheGvCw==}
     engines: {node: '>=19.0.0'}
 
+<<<<<<< Updated upstream
   '@next/env@15.3.2':
     resolution: {integrity: sha512-xURk++7P7qR9JG1jJtLzPzf0qEvqCN0A/T3DXf8IPMKo9/6FfjxtEffRJIIew/bIL4T3C2jLLqBor8B/zVlx6g==}
 
   '@next/swc-darwin-arm64@15.3.2':
     resolution: {integrity: sha512-2DR6kY/OGcokbnCsjHpNeQblqCZ85/1j6njYSkzRdpLn5At7OkSdmk7WyAmB9G0k25+VgqVZ/u356OSoQZ3z0g==}
+=======
+  /@next/env@16.0.0-canary.8:
+    resolution: {integrity: sha512-5pI0v9ZkKU728FV5wHeW0Bq5YPW5r+LPlbs3ymrdaYbkJL+4f7X9TPvewTUHskwzxTfzLd5bhgoBWLU+6TmMfA==}
+    dev: false
+
+  /@next/swc-darwin-arm64@16.0.0-canary.8:
+    resolution: {integrity: sha512-pPFZ2LZJfmDJedZQZU+HOJO7kp8okBERf9gsmaWXp0csvcUg2VvDN0FDZT9f3N7D2qdFEDIuNd9eOhkSNh9RPQ==}
+>>>>>>> Stashed changes
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
 
+<<<<<<< Updated upstream
   '@next/swc-darwin-x64@15.3.2':
     resolution: {integrity: sha512-ro/fdqaZWL6k1S/5CLv1I0DaZfDVJkWNaUU3un8Lg6m0YENWlDulmIWzV96Iou2wEYyEsZq51mwV8+XQXqMp3w==}
+=======
+  /@next/swc-darwin-x64@16.0.0-canary.8:
+    resolution: {integrity: sha512-aLSfJZMK1TJp2Px7vxSTbF+YGlIwLRHoC195PekSTx8wEjG8InGeXW04HzuOcJvwiRZGyZT5LBlyGpWUc+tkrQ==}
+>>>>>>> Stashed changes
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
 
+<<<<<<< Updated upstream
   '@next/swc-linux-arm64-gnu@15.3.2':
     resolution: {integrity: sha512-covwwtZYhlbRWK2HlYX9835qXum4xYZ3E2Mra1mdQ+0ICGoMiw1+nVAn4d9Bo7R3JqSmK1grMq/va+0cdh7bJA==}
+=======
+  /@next/swc-linux-arm64-gnu@16.0.0-canary.8:
+    resolution: {integrity: sha512-qYHRyp64W469bK2wjSUKdMuk5PrhCQkatOKljohxsWIOMa0/+QRvpSGZ+VrWPdEiBJMEvxfW7nHp23A65LERsg==}
+>>>>>>> Stashed changes
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
+<<<<<<< Updated upstream
   '@next/swc-linux-arm64-musl@15.3.2':
     resolution: {integrity: sha512-KQkMEillvlW5Qk5mtGA/3Yz0/tzpNlSw6/3/ttsV1lNtMuOHcGii3zVeXZyi4EJmmLDKYcTcByV2wVsOhDt/zg==}
+=======
+  /@next/swc-linux-arm64-musl@16.0.0-canary.8:
+    resolution: {integrity: sha512-b2wrcTdhcxMNNwvli/oShIIEiEo1m5HD6Crr6TPLIkG3uNHUPAZjOGdU8636dsCe9P5O6g9izvBfQMvZj/Vj0Q==}
+>>>>>>> Stashed changes
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
+<<<<<<< Updated upstream
   '@next/swc-linux-x64-gnu@15.3.2':
     resolution: {integrity: sha512-uRBo6THWei0chz+Y5j37qzx+BtoDRFIkDzZjlpCItBRXyMPIg079eIkOCl3aqr2tkxL4HFyJ4GHDes7W8HuAUg==}
+=======
+  /@next/swc-linux-x64-gnu@16.0.0-canary.8:
+    resolution: {integrity: sha512-WivsMCv6V51iHVYHH9tZelol8eiA/aYM7TOC3acIr6NRysV0WjhQdaEaQquV4qsxfgnzF883ZH6OkT61Hpt/qA==}
+>>>>>>> Stashed changes
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
+<<<<<<< Updated upstream
   '@next/swc-linux-x64-musl@15.3.2':
     resolution: {integrity: sha512-+uxFlPuCNx/T9PdMClOqeE8USKzj8tVz37KflT3Kdbx/LOlZBRI2yxuIcmx1mPNK8DwSOMNCr4ureSet7eyC0w==}
+=======
+  /@next/swc-linux-x64-musl@16.0.0-canary.8:
+    resolution: {integrity: sha512-IcsIFXnLTi/UpM9ZSowvMo72un1YCwOi5G6Eol3KU8mxfhxh13nQ7eAHPMSKEM7olSVqQtV61rTpciDkIgiPkQ==}
+>>>>>>> Stashed changes
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
+<<<<<<< Updated upstream
   '@next/swc-win32-arm64-msvc@15.3.2':
     resolution: {integrity: sha512-LLTKmaI5cfD8dVzh5Vt7+OMo+AIOClEdIU/TSKbXXT2iScUTSxOGoBhfuv+FU8R9MLmrkIL1e2fBMkEEjYAtPQ==}
+=======
+  /@next/swc-win32-arm64-msvc@16.0.0-canary.8:
+    resolution: {integrity: sha512-2TNLat2D+gMWibxO46fvogDRuj9IaFJqH15H8v4kUJi8DbnHOdGYenE0e4Lv/Y5+QS4d8mHXrnrTBZCGuM0IFA==}
+>>>>>>> Stashed changes
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
 
+<<<<<<< Updated upstream
   '@next/swc-win32-x64-msvc@15.3.2':
     resolution: {integrity: sha512-aW5B8wOPioJ4mBdMDXkt5f3j8pUr9W8AnlX0Df35uRWNT1Y6RIybxjnSUe+PhM+M1bwgyY8PHLmXZC6zT1o5tA==}
+=======
+  /@next/swc-win32-x64-msvc@16.0.0-canary.8:
+    resolution: {integrity: sha512-TfDOyvdSsMexBublAfaeoVOH/l1GvCuSFArh6pqAqFLefSvxOzP5S5OJtup2HMt0/2U9Icpz5byFL+BLw2tetw==}
+>>>>>>> Stashed changes
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
@@ -724,7 +834,11 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
+<<<<<<< Updated upstream
   next-auth@5.0.0-beta.25:
+=======
+  /next-auth@5.0.0-beta.25(next@16.0.0-canary.8)(react@19.2.0):
+>>>>>>> Stashed changes
     resolution: {integrity: sha512-2dJJw1sHQl2qxCrRk+KTQbeH+izFbGFPuJj5eGgBZFYyiYYtvlrBeUw1E/OJJxTRjuxbSYGnCTkUIRsIIW0bog==}
     peerDependencies:
       '@simplewebauthn/browser': ^9.0.1
@@ -739,10 +853,22 @@ packages:
         optional: true
       nodemailer:
         optional: true
+<<<<<<< Updated upstream
 
   next@15.3.2:
     resolution: {integrity: sha512-CA3BatMyHkxZ48sgOCLdVHjFU36N7TF1HhqAHLFOkV6buwZnvMI84Cug8xD56B9mCuKrqXnLn94417GrZ/jjCQ==}
     engines: {node: ^18.18.0 || ^19.8.0 || >= 20.0.0}
+=======
+    dependencies:
+      '@auth/core': 0.37.2
+      next: 16.0.0-canary.8(react-dom@19.2.0)(react@19.2.0)
+      react: 19.2.0
+    dev: false
+
+  /next@16.0.0-canary.8(react-dom@19.2.0)(react@19.2.0):
+    resolution: {integrity: sha512-5yvhSCbkLHROtiVhHnUVvqpLDOjE3S4qKH6FjrZXOyhZiz2n4bfCPsa66p+e9DyQvDITvPVVQdwA4Ga4CJMJwg==}
+    engines: {node: '>=20.9.0'}
+>>>>>>> Stashed changes
     hasBin: true
     peerDependencies:
       '@opentelemetry/api': ^1.1.0
@@ -760,6 +886,31 @@ packages:
         optional: true
       sass:
         optional: true
+<<<<<<< Updated upstream
+=======
+    dependencies:
+      '@next/env': 16.0.0-canary.8
+      '@swc/helpers': 0.5.15
+      caniuse-lite: 1.0.30001750
+      postcss: 8.4.31
+      react: 19.2.0
+      react-dom: 19.2.0(react@19.2.0)
+      styled-jsx: 5.1.6(react@19.2.0)
+    optionalDependencies:
+      '@next/swc-darwin-arm64': 16.0.0-canary.8
+      '@next/swc-darwin-x64': 16.0.0-canary.8
+      '@next/swc-linux-arm64-gnu': 16.0.0-canary.8
+      '@next/swc-linux-arm64-musl': 16.0.0-canary.8
+      '@next/swc-linux-x64-gnu': 16.0.0-canary.8
+      '@next/swc-linux-x64-musl': 16.0.0-canary.8
+      '@next/swc-win32-arm64-msvc': 16.0.0-canary.8
+      '@next/swc-win32-x64-msvc': 16.0.0-canary.8
+      sharp: 0.34.4
+    transitivePeerDependencies:
+      - '@babel/core'
+      - babel-plugin-macros
+    dev: false
+>>>>>>> Stashed changes
 
   node-addon-api@5.1.0:
     resolution: {integrity: sha512-eh0GgfEkpnoWDq+VY8OyvYhFEzBk6jIYbRKdIlyTiAXIVJ8PyBaKb0rp7oDtoddbdoHWhq8wwr+XZ81F1rpNdA==}
